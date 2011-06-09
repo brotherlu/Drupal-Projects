@@ -1,0 +1,114 @@
+/**
+ * @file
+ * Field Styling
+ */
+
+
+.field /* Wrapper for any field. */ {
+}
+
+/*
+ * Field types (Core)
+ */
+.field-type-text {
+}
+
+.field-type-text-long {
+}
+
+.field-type-text-with-summary {
+}
+
+.field-type-image {
+padding: 0.5em;
+border-left:1px dotted lightgreen;
+}
+
+.view-mode-full .field-item {
+width:480px;
+margin: 0 auto;
+}
+
+.field-type-file {
+}
+
+.field-type-taxonomy-term-reference {
+padding:.5em 0 1em .5em;
+background-color: lightgreen;
+display: block;
+border-radius:0 0 10px 10px;
+}
+
+.node-teaser .field-type-taxonomy-term-reference{
+background:none;
+float:left;
+}
+
+.field-type-number-integer {
+}
+
+.field-type-number-decimal {
+}
+
+.field-type-number-float {
+}
+
+.field-type-list-text {
+}
+
+.field-type-list-boolean {
+}
+
+.field-type-list-integer {
+}
+
+.field-type-list-float {
+}
+
+/*
+ * Field types (Contrib)
+ */
+.field-type-datetime /* Always use "datetime" when creating new CCK date fields. "date" and "datestamp" are legacy types. */ {
+}
+
+.field-type-node-reference {
+}
+
+.field-type-user-reference {
+}
+
+
+/*
+ * Named fields
+ */
+.field-name-body {
+padding:1em;
+}
+
+.field-name-body p:nth-child(1) {
+display:block;
+padding:1em;
+margin:-1em;
+border-top: 1px dotted #0c0;
+font-size: 1.1em;
+}
+
+.view-mode-full .field-name-body {
+background-color: lightcyan;
+border-bottom: 1px dotted #0c0;
+}
+
+.view-mode-full .field-type-image {
+margin-top:-14px;
+border-radius:10px 10px 0 0;
+background-color: lightgreen;
+}
+
+.field-name-field-image {
+}
+
+.field-name-field-tags {
+}
+
+.field-name-field-FIELDNAME /* Underscores in field name are replaced with dashes. */ {
+}
